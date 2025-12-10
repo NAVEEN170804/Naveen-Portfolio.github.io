@@ -75,17 +75,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh;  /* keeps full viewport height */
+    min-height: 100vh; 
     padding: 0 10%;
     flex-direction: row;
-    overflow: hidden; /* default desktop layout */
+    overflow: hidden;
 }
 
 
         .home-content {
     max-width: 600px;
-    width: 100%;          /* ensures content doesn't overflow */
-    word-wrap: break-word; /* breaks long words or links */
+    width: 100%;   
+    word-wrap: break-word; 
 flex-shrink: 1;
 }
 
@@ -158,8 +158,7 @@ flex-shrink: 1;
     max-width: 345px;
     height: 50px;
     position: relative;
-    flex-wrap: wrap; /* allows stacking on small screens */
-}
+    flex-wrap: wrap; }
 
 
           .home-content .btn-box::before {
@@ -366,7 +365,6 @@ flex-shrink: 1;
     font-size: 18px;
 }
 
-/* For devices with width 768px or less (tablets/mobiles) */
 @media (max-width: 768px) {
     .header {
         padding: 20px 5%;
